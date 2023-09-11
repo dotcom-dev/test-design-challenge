@@ -10,7 +10,7 @@ the challenge, spend no more than 30 minutes to draft up a proposed design for
 implementing tests for validating the correctness of the system under test.
 
 The challenge does not intend to restrict you in any way in chosing your approach,
-tools or event documentation format of your liking. Please keep in mind though that
+tools or even documentation format of your liking. Please keep in mind though that
 the output of your work shall be easy to interpret, help others reading follow your
 train of thought. The design doesn't need to be complete, perfect, shiny, but should
 call out any obvious omissions, uncovered areas, in order to help assess the remaining

@@ -1,3 +1,6 @@
+# Answer
+The answer can be found in the [ANSWERS.md](ANSWERS.md) file.
+
 # CHALLENGE #1 - Test Design Challenge
 
 This challenge is supposed to help you to showcase your aptitude in understanding

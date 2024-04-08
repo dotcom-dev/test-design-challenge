@@ -125,3 +125,34 @@ Role-Based Access Control (RBAC) testing with positive and negative scenarios:
 - If a product has `creator_id` or something like that:
   - Nothing should be done in case of a soft delete
   - Business decides what needs to be done in case of a hard delete (i.e: null or delete)
+
+# CHALLENGE #2 - Test Automation Challenge
+**Notes:**
+- The code can be found in [this file](tests/test_product_followers.py).
+- Selenium in Python is a bit easier to read but can be a bit slower than JS/TS
+
+**What tool is used?**
+`Selenium` with `Python`
+
+### Install the pre-requisites and run the test
+```bash
+# Go to the tests directory
+cd tests/
+
+# Create a virtual environment, for example 'testenv'
+python -m venv testenv
+source testenv/bin/activate
+pip install -r requirements.txt
+
+# Run the test
+python test_product_followers.py
+```
+
+## How to improve the automated test?
+- Create functions to find elements based on the product
+- Create functions for actions
+
+## What to consider?
+- Right now we are pretty much reliant on class names, texts inside elements, and tags
+  - If any of them changes, we should update our tests
+  - With shared functions and a more DRY approach we can centralize 
